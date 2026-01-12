@@ -1,7 +1,7 @@
 {
   "id": "greenbottles-ammo-belt",
   "title": "Greenbottle's Ammo Belt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
