@@ -9,21 +9,21 @@ Hooks.once('init', () => {
     ...CONFIG.PF2E.ammoTypes,
     'gb-ammo-light': {
       parent: null,
-      label: 'Light Ammo',
+      label: "GB's Light Ammo",
       magazine: false,
       stackGroup: null,
       weapon: null
     },
     'gb-ammo-medium': {
       parent: null,
-      label: 'Medium Ammo',
+      label: "GB's Medium Ammo",
       magazine: false,
       stackGroup: null,
       weapon: null
     },
     'gb-ammo-heavy': {
       parent: null,
-      label: 'Heavy Ammo',
+      label: "GB's Heavy Ammo",
       magazine: false,
       stackGroup: null,
       weapon: null

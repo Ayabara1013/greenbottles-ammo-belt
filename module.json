@@ -9,21 +9,55 @@
   "esmodules": [
     "scripts/ammo-belt.js"
   ],
+  "authors": [
+    {
+      "name": "Doc_",
+      "url": "https://github.com/Ayabara1013",
+      "flags": {}
+    }
+  ],
+  "description": "<p>Adds custom ammunition types for Starfinder 2e weapons, including Light Rounds, Medium Rounds, and Heavy Rounds. Includes a compendium of pre-configured ammunition items.</p>",
+  "url": "https://github.com/Ayabara1013/greenbottles-ammo-belt",
+  "manifest": "https://github.com/Ayabara1013/greenbottles-ammo-belt/releases/latest/download/module.json",
+  "download": "https://github.com/Ayabara1013/greenbottles-ammo-belt/releases/latest/download/module.zip",
+  "bugs": "https://github.com/Ayabara1013/greenbottles-ammo-belt/issues",
+  "changelog": "https://github.com/Ayabara1013/greenbottles-ammo-belt/releases",
   "flags": {
     "canUpload": true
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.0"
+        }
+      }
+    ]
   },
   "packs": [
     {
       "name": "greenbottles-ammo-belt",
-      "label": "Greenbottle's Ammo Belt",
+      "label": "Greenbottle's Ammo Belt - Ammunition",
       "path": "packs/greenbottles-ammo-belt",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     }
   ],
-  "description": ""
+  "packFolders": [
+    {
+      "name": "Greenbottle's Toolbelt",
+      "sorting": "a",
+      "color": "#0f7652",
+      "packs": [
+        "greenbottles-ammo-belt"
+      ],
+      "folders": []
+    }
+  ]
 }
