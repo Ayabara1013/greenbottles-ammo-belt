@@ -4,4 +4,8 @@ This module adds some new ammo types for use with projectile weapons, in case yo
 
 ## install instructions:
 - if its not available yet in the foundry ui, or if you want to install it manually, just paste the link below into the manifest url field!
-  https://github.com/Ayabara1013/greenbottles-ammo-belt/releases/latest/download/module.json
+- https://github.com/Ayabara1013/greenbottles-ammo-belt/releases/latest/download/module.json
+
+## future updates
+- settings config for selecting which types of ammo should be added,
+- magazine variants for the different ammos (at least for the base LMH ammos ive added already)
