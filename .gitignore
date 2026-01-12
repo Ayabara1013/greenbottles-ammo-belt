@@ -1,0 +1,14 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Node (if you add npm later)
+node_modules/
+
+
+# Foundry database locks
+**/LOCK

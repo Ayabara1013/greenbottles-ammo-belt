@@ -1,0 +1,29 @@
+{
+  "id": "greenbottles-ammo-belt",
+  "title": "Greenbottle's Ammo Belt",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "esmodules": [
+    "scripts/ammo-belt.js"
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "greenbottles-ammo-belt",
+      "label": "Greenbottle's Ammo Belt",
+      "path": "packs/greenbottles-ammo-belt",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ],
+  "description": ""
+}
