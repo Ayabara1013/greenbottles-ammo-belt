@@ -28,6 +28,21 @@ Hooks.once('init', () => {
       stackGroup: null,
       weapon: null
     },
+    'gb-ammo-shell': {
+      parent: null,
+      label: "GB's Shotgun Shells",
+      magazine: false,
+      stackGroup: null,
+      weapon: null
+    },
+    'gb-ammo-micro-rockets': {
+      parent: null,
+      label: "GB's Micro Rockets",
+      magazine: false,
+      stackGroup: null,
+      weapon: null
+    },
+
 
     // // magazine versions
     // 'gb-ammo-light': {
