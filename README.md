@@ -36,3 +36,4 @@ If you want to just support me once, here's a KoFi link! https://ko-fi.com/green
 
 ## v1.0.4 - version number error fixed
 - yeah, thats literally it lol
+- oh, I also added a little useage guide somewhere above here!
