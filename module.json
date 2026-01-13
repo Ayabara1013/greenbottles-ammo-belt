@@ -37,11 +37,6 @@
     ],
     "requires": [
       {
-        "id": "pf2e-toolbelt",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
         "id": "sf2e-anachronism",
         "type": "module",
         "compatibility": {}
