@@ -15,8 +15,10 @@ If you want to just support me once, here's a KoFi link! https://ko-fi.com/green
 - magazine variants for the different ammos (at least for the base LMH ammos ive added already)
 
 
-## V1.0.2 -- additional ammo types ++
+## v1.0.2 -- additional ammo types, +
 - added 2 ammo types; shotgun shells, and micro rockets (eg, for stellar cannons)
 - added compendium folder structure for items
   - item icons are part of the starfinder-anachronism module and will not show if it is not installed
   
+## v1.0.3 - updated requirements
+- module requires starfinder anachronism to work
