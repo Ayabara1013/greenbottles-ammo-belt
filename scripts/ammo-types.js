@@ -1,4 +1,4 @@
-export default ammoTypes = {
+const ammoTypes = {
   // v1.0.0 - Original ammo types
   'gb-ammo-light-rounds': {
     parent: null,
@@ -66,3 +66,5 @@ export default ammoTypes = {
     weapon: null
   }
 };
+
+export default ammoTypes;
