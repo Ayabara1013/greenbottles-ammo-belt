@@ -1,0 +1,40 @@
+
+
+
+<form>
+  <div class="form-group">
+    <p class="notes">
+      Use these buttons to manage ammunition types for configured weapons.
+      This will affect all weapons in the world and in actor inventories.
+    </p>
+  </div>
+
+  <div class="form-group">
+    <label>Status:</label>
+    <p>
+      {{#if customAmmoAssigned}}
+        <i class="fas fa-check-circle" style="color: green;"></i> Custom ammo types are currently assigned
+      {{else}}
+        <i class="fas fa-times-circle" style="color: orange;"></i> Using basic projectile ammo
+      {{/if}}
+    </p>
+  </div>
+
+  <div class="form-group">
+    <button type="button" id="assign-custom-ammo" class="bright">
+      <i class="fas fa-box-open"></i> Assign Custom Ammo Types
+    </button>
+  </div>
+
+  <div class="form-group">
+    <button type="button" id="reset-ammo">
+      <i class="fas fa-undo"></i> Reset to Basic Ammo
+    </button>
+  </div>
+
+  <div class="form-group">
+    <p class="notes" style="font-size: 0.9em; color: #666;">
+      <strong>Note:</strong> Make sure your custom ammo types are created in your compendium before assigning them.
+    </p>
+  </div>
+</form>
