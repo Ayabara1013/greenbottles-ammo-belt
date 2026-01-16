@@ -1,13 +1,15 @@
 {
   "id": "greenbottles-ammo-belt",
   "title": "Greenbottle's Ammo Belt",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
   },
   "esmodules": [
-    "scripts/ammo-belt.js"
+    "scripts/ammo-belt.js",
+    "scripts/ammo-types.js",
+    "scripts/ammo-usage.js"
   ],
   "authors": [
     {
@@ -16,7 +18,7 @@
       "flags": {}
     }
   ],
-  "description": "<p>Adds custom ammunition types for Starfinder 2e weapons, including Light Rounds, Medium Rounds, and Heavy Rounds. Includes a compendium of pre-configured ammunition items.</p>",
+  "description": "<p>Adds custom ammunition types for Starfinder 2e weapons, including specialized ammo like bolts, cards, darts, and various caliber rounds. Includes a compendium of pre-configured ammunition items and tools to assign ammo types to weapons.</p>",
   "url": "https://github.com/Ayabara1013/greenbottles-ammo-belt",
   "manifest": "https://github.com/Ayabara1013/greenbottles-ammo-belt/releases/latest/download/module.json",
   "download": "https://github.com/Ayabara1013/greenbottles-ammo-belt/releases/latest/download/module.zip",
