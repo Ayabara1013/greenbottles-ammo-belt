@@ -1,3 +1,5 @@
-2026/01/16-10:19:19.964 463c Recovering log #24
-2026/01/16-10:19:19.969 463c Delete type=0 #24
-2026/01/16-10:19:19.969 463c Delete type=3 #22
+2026/01/17-10:47:08.113 117f8 Log #29: 0 ops saved to Table #30 OK
+2026/01/17-10:47:08.113 117f8 Archiving ..\Data\modules\greenbottles-ammo-belt\packs\greenbottles-ammo-belt/000029.log: OK
+2026/01/17-10:47:08.119 117f8 Table #13: 5 entries OK
+2026/01/17-10:47:08.121 117f8 Archiving ..\Data\modules\greenbottles-ammo-belt\packs\greenbottles-ammo-belt/MANIFEST-000028: OK
+2026/01/17-10:47:08.123 117f8 **** Repaired leveldb ..\Data\modules\greenbottles-ammo-belt\packs\greenbottles-ammo-belt; recovered 1 files; 2541 bytes. Some data may have been lost. ****
