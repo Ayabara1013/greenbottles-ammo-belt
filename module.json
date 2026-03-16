@@ -42,6 +42,10 @@
         "id": "sf2e-anachronism",
         "type": "module",
         "compatibility": {}
+      },
+      {
+        "id": "greenbottles-toolbelt",
+        "type": "module"
       }
     ]
   },
