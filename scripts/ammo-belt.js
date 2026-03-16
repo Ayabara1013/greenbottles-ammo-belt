@@ -1,8 +1,28 @@
+/**
+ * ammo-belt.js — Greenbottle's Ammo Belt
+ *
+ * Main module file. Does three things:
+ *
+ *   1. On 'init': Injects custom ammo types (gb-ammo-*) into PF2e's CONFIG.PF2E.ammoTypes
+ *      so Foundry recognises them as valid ammunition.
+ *
+ *   2. On 'init': Registers two hidden world settings:
+ *      - 'customAmmoAssigned'  — tracks whether bulk assignment has been run
+ *      - 'weaponAmmoOverrides' — stores per-weapon ammo type overrides (slug → ammo type)
+ *
+ *   3. On 'ready': Registers the Ammo Type Management settings menu (GM only),
+ *      which opens AmmoManagementMenu — a tabbed FormApplication for bulk or
+ *      individual weapon ammo assignment.
+ *
+ * ammo-types.js  — defines the full list of custom ammo type objects
+ * ammo-usage.js  — maps weapon slugs to their default ammo types + assignment functions
+ */
+
 import { assignAllCustomAmmoTypes, resetAllAmmoTypes, assignAmmoType } from './ammo-usage.js';
 import ammoUsage from './ammo-usage.js';
 
 Hooks.once('init', () => {
-  console.log("Greenbottle's Ammo Belt --- Adding custom Ammo Types");
+  console.log("Greenbottle's Ammo Belt | Registering custom ammo types");
 
   CONFIG.PF2E.ammoTypes = {
     ...CONFIG.PF2E.ammoTypes,
