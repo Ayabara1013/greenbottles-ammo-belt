@@ -10,5 +10,11 @@ Thumbs.db
 node_modules/
 
 
-# Foundry database locks
-**/LOCK
+# Foundry LevelDB compendium files (auto-generated at runtime, not source)
+packs/**/*.ldb
+packs/**/*.log
+packs/**/CURRENT
+packs/**/LOCK
+packs/**/LOG
+packs/**/LOG.old
+packs/**/MANIFEST-*
