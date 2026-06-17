@@ -45,7 +45,8 @@
       },
       {
         "id": "greenbottles-toolbelt",
-        "type": "module"
+        "type": "module",
+        "manifest": "https://github.com/Ayabara1013/greenbottles-toolbelt/releases/latest/download/module.json"
       }
     ]
   },
