@@ -1,10 +1,10 @@
 {
   "id": "greenbottles-ammo-belt",
   "title": "Greenbottle's Ammo Belt",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "14"
   },
   "esmodules": [
     "scripts/ammo-belt.js",
@@ -35,18 +35,26 @@
         "compatibility": {
           "minimum": "6.0.0"
         }
+      },
+      {
+        "id": "sf2e",
+        "type": "system",
+        "compatibility": {}
       }
     ],
     "requires": [
       {
+        "id": "greenbottles-toolbelt",
+        "type": "module",
+        "manifest": "https://github.com/Ayabara1013/greenbottles-toolbelt/releases/latest/download/module.json",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
         "id": "sf2e-anachronism",
         "type": "module",
         "compatibility": {}
-      },
-      {
-        "id": "greenbottles-toolbelt",
-        "type": "module",
-        "manifest": "https://github.com/Ayabara1013/greenbottles-toolbelt/releases/latest/download/module.json"
       }
     ]
   },
@@ -60,7 +68,20 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
+    },
+    {
+      "name": "greenbottles-ammo-belt-sf2e",
+      "label": "Greenbottle's Ammo Belt - Ammunition",
+      "path": "packs/greenbottles-ammo-belt-sf2e",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -69,7 +90,8 @@
       "sorting": "a",
       "color": "#0f7652",
       "packs": [
-        "greenbottles-ammo-belt"
+        "greenbottles-ammo-belt",
+        "greenbottles-ammo-belt-sf2e"
       ],
       "folders": []
     }

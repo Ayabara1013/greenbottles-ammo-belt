@@ -10,11 +10,9 @@ Thumbs.db
 node_modules/
 
 
-# Foundry LevelDB compendium files (auto-generated at runtime, not source)
-packs/**/*.ldb
-packs/**/*.log
-packs/**/CURRENT
-packs/**/LOCK
-packs/**/LOG
-packs/**/LOG.old
-packs/**/MANIFEST-*
+# Compiled LevelDB compendium — built from src/packs/ by the release workflow
+# (and locally via the Foundry CLI). Source of truth is src/packs/, not this.
+/packs/
+
+# One-off transform helper
+build-src.mjs

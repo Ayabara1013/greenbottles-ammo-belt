@@ -1,0 +1,92 @@
+{
+  "name": "Shotgun Shells",
+  "type": "ammo",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [],
+    "slug": "shotgun-shells",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.364",
+        "system": "8.2.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "consumable"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "gb-ammo-shells",
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {},
+      "per": 1
+    },
+    "equipped": {
+      "carryType": "worn",
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Ammunition",
+        "img": "modules/greenbottles-ammo-belt/icons/shotgun-shells.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "craftableAs": null,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    }
+  },
+  "img": "modules/greenbottles-ammo-belt/icons/shotgun-shells.webp",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13",
+    "systemId": "pf2e"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "gbammoshell00001",
+  "_key": "!items!gbammoshell00001"
+}

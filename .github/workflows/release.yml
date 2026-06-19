@@ -14,6 +14,28 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build compendium packs from source
+        run: |
+          npm install -g @foundryvtt/foundryvtt-cli
+          mkdir -p packs
+          # Same source builds both the PF2e and SF2e packs (one per system —
+          # Foundry packs can't span systems, so we ship one for each).
+          fvtt package pack greenbottles-ammo-belt \
+            --in src/packs/greenbottles-ammo-belt \
+            --out packs \
+            --id greenbottles-ammo-belt \
+            --type Module
+          fvtt package pack greenbottles-ammo-belt-sf2e \
+            --in src/packs/greenbottles-ammo-belt \
+            --out packs \
+            --id greenbottles-ammo-belt \
+            --type Module
+
       - name: Create module.zip
         run: zip -r ./module.zip module.json scripts/ templates/ icons/ packs/
 
@@ -40,7 +62,7 @@ jobs:
                 \"notes\": \"https://github.com/Ayabara1013/greenbottles-ammo-belt/releases/tag/${GITHUB_REF_NAME}\",
                 \"compatibility\": {
                   \"minimum\": \"13\",
-                  \"verified\": \"13\"
+                  \"verified\": \"14\"
                 }
               }
             }"
