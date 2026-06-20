@@ -37,3 +37,10 @@ If you want to just support me once, here's a KoFi link! https://ko-fi.com/green
 ## v1.0.4 - version number error fixed
 - yeah, thats literally it lol
 - oh, I also added a little useage guide somewhere above here!
+
+## v1.3.0 - native Starfinder 2e support + art now bundled
+- now works in **both** PF2e (with anachronism) **and** the native Starfinder 2e system!
+  - ships a separate compendium for each system; Foundry shows whichever matches your world
+- all item icons are now bundled inside the module, so they show up everywhere — you no longer need anachronism installed just for the art to appear
+- fixed shotgun shells not being linked to their ammo type
+- under the hood: the compendium is now built from source on release, so installs from the foundry ui / manifest actually come with the ammo in the box (previously the released compendium could come up empty)
